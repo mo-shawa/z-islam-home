@@ -32,6 +32,26 @@ img {
 	/* aspect-ratio: 1; */
 }
 
+.blob-wrapper {
+	position: absolute;
+
+	aspect-ratio: 1;
+	filter: blur(50px) opacity(20%);
+	z-index: -1;
+}
+
+.blob-orange {
+	width: 30rem;
+	aspect-ratio: 1;
+	fill: var(--orange);
+}
+
+.blob-blue {
+	width: 30rem;
+	aspect-ratio: 1;
+	fill: var(--dark-blue);
+}
+
 a {
 	font-weight: 500;
 	color: var(--glaucous);
