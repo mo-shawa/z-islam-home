@@ -24,6 +24,6 @@ git commit --allow-empty -m 'deploy'
 # git push -f git@github.com:mo-shawa/mo-shawa.github.io.git gh-pages
 
 # if you are deploying to https://<USERNAME>.github.io/<REPO>
-git push -f git@github.com:mo-shawa/z-islam-home.git main:gh-pages
+git push -f git@github.com:mo-shawa/z-islam-home.git gh-pages
 
 cd -
