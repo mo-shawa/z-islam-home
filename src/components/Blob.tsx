@@ -1,13 +1,17 @@
+import { genNum } from "culler"
 type BlobProps = {
 	color: "orange" | "blue"
 }
 
 export default function Blob({ color }: BlobProps) {
+	const position = genNum({ isInt: true, min: 0, max: 100 })
 	return (
 		<div
 			className="blob-wrapper"
 			style={
-				color === "orange" ? { right: 0, bottom: 0 } : { left: 0, bottom: 0 }
+				color === "orange"
+					? { right: position, bottom: position }
+					: { left: position, top: position }
 			}
 		>
 			<svg
