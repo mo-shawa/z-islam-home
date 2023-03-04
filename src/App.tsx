@@ -4,17 +4,17 @@ import "./App.css"
 import Blob from "./components/Blob"
 
 function App() {
-	const [count, setCount] = useState(0)
-
 	return (
 		<div className="App">
-			<Blob color="orange" />
-			<Blob color="blue" />
 			<div className="img-wrapper">
-				<img src="./logo-screenshot.png" alt="logo" />
+				<img src="./logo.svg " alt="logo" />
 			</div>
-			<h1>Coming Soon</h1>
-			<h1>قريباً</h1>
+			<div className="pattern top"></div>
+			<div className="pattern"></div>
+			<div className="h1-wrapper">
+				<h1>قريباً</h1>
+				<h1>Coming Soon</h1>
+			</div>
 		</div>
 	)
 }
