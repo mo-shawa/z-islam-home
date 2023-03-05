@@ -1,7 +1,7 @@
 @font-face {
 	font-family: "Interphases";
 	src: local("Interphases"),
-		url("./interphases-pro-regular.otf") format("opentype");
+		url("/interphases-pro-regular.otf") format("opentype");
 }
 :root {
 	font-family: "Interphases", Avenir, Helvetica, Arial, sans-serif;
@@ -32,7 +32,7 @@
 	width: 200vw;
 	transform: translateX(-40%);
 	bottom: -5%;
-	background-image: url("./pattern.svg");
+	background-image: url("/pattern.svg");
 	background-repeat: repeat-x;
 }
 
