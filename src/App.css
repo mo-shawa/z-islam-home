@@ -12,5 +12,5 @@ body,
 
 #root {
 	background: url("/pattern.svg") repeat-x center bottom;
-	background-size: 15%;
+	background-size: 15rem;
 }
