@@ -18,7 +18,7 @@
 							<rect id="SVGID_735_" x="-4604.68" y="-4779.63" width="7153.11" height="7153.1"/>
 						</defs>
 						<clipPath id="SVGID_2_">
-							<use xlink:href="#SVGID_735_"  style="overflow:visible;"/>
+							<use xlink:href="#SVGID_735_"  style="overflow:hidden;"/>
 						</clipPath>
 					</g>
 				</g>
@@ -31,21 +31,21 @@
 		<rect id="SVGID_742_" x="1932.08" y="-1174.71" width="1080" height="1080"/>
 	</defs>
 	<clipPath id="SVGID_4_">
-		<use xlink:href="#SVGID_742_"  style="overflow:visible;"/>
+		<use xlink:href="#SVGID_742_"  style="overflow:hidden;"/>
 	</clipPath>
 	<g class="st2">
 		<defs>
 			<rect id="SVGID_744_" x="800.09" y="201.22" width="1080" height="1080"/>
 		</defs>
 		<clipPath id="SVGID_6_">
-			<use xlink:href="#SVGID_744_"  style="overflow:visible;"/>
+			<use xlink:href="#SVGID_744_"  style="overflow:hidden;"/>
 		</clipPath>
 		<g style="clip-path:url(#SVGID_6_);">
 			<defs>
 				<rect id="SVGID_746_" x="780.09" y="1321.22" width="1080" height="1080"/>
 			</defs>
 			<clipPath id="SVGID_8_">
-				<use xlink:href="#SVGID_746_"  style="overflow:visible;"/>
+				<use xlink:href="#SVGID_746_"  style="overflow:hidden;"/>
 			</clipPath>
 			<path style="clip-path:url(#SVGID_8_);fill:#841818;" d="M-340.97,421.67L512.2,876.64l759.02,405.03
 				c146.36,80.55,312.58,112.87,476.52,94.16l-114.59,114.59l731.23,394.24c39.69,21.58,78.84,40.29,119.69,57.31l-106.53,106.53
@@ -311,7 +311,7 @@
 			l8.25,8.25l16.71,16.71l16.71,16.71l16.71,16.71l14.26-14.26v-4.91l-14.26-14.26l-16.71-16.71l-8.25-8.25H992.48z"/>
 	</defs>
 	<clipPath id="SVGID_10_">
-		<use xlink:href="#SVGID_748_"  style="overflow:visible;"/>
+		<use xlink:href="#SVGID_748_"  style="overflow:hidden;"/>
 	</clipPath>
 	<defs>
 		<filter id="Adobe_OpacityMaskFilter" filterUnits="userSpaceOnUse" x="-14.89" y="-6.36" width="1080" height="970.44">
@@ -353,7 +353,7 @@
 		<rect id="SVGID_775_" x="1932.08" y="-1174.71" width="1080" height="1080"/>
 	</defs>
 	<clipPath id="SVGID_18_">
-		<use xlink:href="#SVGID_775_"  style="overflow:visible;"/>
+		<use xlink:href="#SVGID_775_"  style="overflow:hidden;"/>
 	</clipPath>
 	<g style="opacity:0.2;clip-path:url(#SVGID_18_);">
 		<g>
@@ -361,7 +361,7 @@
 				<rect id="SVGID_784_" x="925.79" y="-3645.92" width="5609.18" height="5609.18"/>
 			</defs>
 			<clipPath id="SVGID_20_">
-				<use xlink:href="#SVGID_784_"  style="overflow:visible;"/>
+				<use xlink:href="#SVGID_784_"  style="overflow:hidden;"/>
 			</clipPath>
 		</g>
 	</g>

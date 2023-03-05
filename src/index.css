@@ -3,6 +3,9 @@
 	src: local("Interphases"),
 		url("/interphases-pro-regular.otf") format("opentype");
 }
+
+* {
+}
 :root {
 	font-family: "Interphases", Avenir, Helvetica, Arial, sans-serif;
 	line-height: 1.5;
@@ -88,7 +91,8 @@ body {
 	display: flex;
 	place-items: flex-end;
 	min-width: 320px;
-	min-height: 100vh;
+	height: 100vh;
+	overflow-y: hidden;
 }
 
 h1 {

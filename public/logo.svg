@@ -4,71 +4,67 @@
 	 viewBox="0 0 432.77 432.77" style="enable-background:new 0 0 432.77 432.77;" xml:space="preserve">
 <style type="text/css">
 	
-	.st400{fill:#007EA1;}
-	.st401{fill:#BE581A;}
-	.st402{fill:#193276;}
-	.st403{opacity:0.2;}
+	.st400{fill:#007EA1; opacity: 0 ; animation: fill 1s linear forwards; animation-delay: 100ms}
+	.st401{fill:#BE581A; opacity: 0 ; animation: fill 1s linear forwards; animation-delay: 900ms}
+	.st402{fill:#193276; opacity: 0 ; animation: fill 1s linear forwards; animation-delay: 500ms}
+	.star{fill:#193276; opacity: 0 ; animation: fill 2s linear forwards; animation-delay: 1500ms}
+	.st403{opacity: 0 ; animation: fill 1s linear forwards; animation-delay: 900ms}
+	.test{outline: 1px dashed red;}
 
-.animate{
-	<!-- stroke: none; -->
-	<!-- fill: none; -->
-	animation: fill 3s linear
-}
 
 @keyframes fill{
-	0% {fill:none}
-	100% {fill: unset}
+	0% {opacity:0}
+	100% {opacity:1}
 }
-	
 	
 </style>
 <g>
 	<g>
 		<g>
 			<g>
-				<polygon class="animate st400" points="360.29,298.14 360.29,326.3 86.51,326.3 86.51,312.22 177.25,312.22 177.25,298.14 
+				<polygon class="st400" points="360.29,298.14 360.29,326.3 86.51,326.3 86.51,312.22 177.25,312.22 177.25,298.14 
 					191.33,298.14 191.33,312.22 346.21,312.22 346.21,298.14 				"/>
-				<rect x="247.65" y="298.14" class="animate st400" width="14.08" height="14.08"/>
-				<polygon class="animate st400" points="215.37,326.3 205.41,336.26 215.37,346.22 222.41,339.18 229.45,346.22 239.41,336.26 
+				<rect x="247.65" y="298.14" class="st400" width="14.08" height="14.08"/>
+				<polygon class="st400" points="215.37,326.3 205.41,336.26 215.37,346.22 222.41,339.18 229.45,346.22 239.41,336.26 
 					229.45,326.3 222.41,333.34 				"/>
 				
-					<rect x="315.14" y="329.22" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -143.4073 326.3268)" class="animate st400" width="14.08" height="14.08"/>
-				<polygon class="animate st400" points="137.9,305.23 144.8,312.22 154.82,302.34 144.94,292.31 137.85,299.3 130.95,292.31 
+					<rect x="315.14" y="329.22" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -143.4073 326.3268)" class="st400" width="14.08" height="14.08"/>
+				<polygon class="st400" points="137.9,305.23 144.8,312.22 154.82,302.34 144.94,292.31 137.85,299.3 130.95,292.31 
 					120.93,302.2 130.82,312.22 				"/>
-				<polygon class="animate st401" points="101.02,241.82 110.97,251.78 120.93,241.82 113.89,234.78 120.93,227.74 110.97,217.78 
+				<polygon class="st401" points="101.02,241.82 110.97,251.78 120.93,241.82 113.89,234.78 120.93,227.74 110.97,217.78 
 					101.02,227.74 108.06,234.78 				"/>
-				<polygon class="animate st401" points="219.49,185.5 219.49,101.02 205.41,101.02 205.41,213.66 191.33,213.66 191.33,101.02 
+				<polygon class="st401" points="219.49,185.5 219.49,101.02 205.41,101.02 205.41,213.66 191.33,213.66 191.33,101.02 
 					177.25,101.02 177.25,227.74 219.49,227.74 219.49,199.58 275.81,199.58 275.81,185.5 				"/>
-				<path class="animate st401" d="M135.01,185.5h-14.08v42.24h14.08v14.08h-14.08v14.08h28.16v14.08h-48.07V185.5H86.94v98.56h76.23v-42.24
+				<path class="st401" d="M135.01,185.5h-14.08v42.24h14.08v14.08h-14.08v14.08h28.16v14.08h-48.07V185.5H86.94v98.56h76.23v-42.24
 					h-14.08v-14.08h14.08V185.5H135.01z M149.09,213.66h-14.08v-14.08h14.08V213.66z"/>
-				<path class="animate st401" d="M261.73,101.01v56.32h-14.08v-56.32h-14.08v70.4h42.24v-70.4H261.73z M245.05,166.12l-3.3,3.3l-6.62-6.62
+				<path class="st401" d="M261.73,101.01v56.32h-14.08v-56.32h-14.08v70.4h42.24v-70.4H261.73z M245.05,166.12l-3.3,3.3l-6.62-6.62
 					l6.62-6.6l3.3,3.3l-3.3,3.3L245.05,166.12z"/>
-				<rect x="289.89" y="101.02" class="animate st401" width="14.08" height="98.56"/>
+				<rect x="289.89" y="101.02" class="st401" width="14.08" height="98.56"/>
 				
-					<rect x="198.37" y="241.82" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -115.8073 218.1383)" class="animate st402" width="14.08" height="14.08"/>
-				<polygon class="animate st402" points="318.06,115.1 318.06,255.9 303.97,255.9 303.97,213.66 289.89,213.66 289.89,269.98 
+					<rect x="198.37" y="241.82" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -115.8073 218.1383)" class="st402" width="14.08" height="14.08"/>
+				<polygon class="st402" points="318.06,115.1 318.06,255.9 303.97,255.9 303.97,213.66 289.89,213.66 289.89,269.98 
 					247.65,269.98 247.65,284.06 303.97,284.06 303.97,269.98 318.06,269.98 318.06,284.06 332.14,284.06 332.14,101.02 
 					318.06,101.02 				"/>
-				<rect x="346.22" y="101.02" class="animate st402" width="14.08" height="183.05"/>
-				<rect x="86.51" y="298.14" class="animate st400" width="14.08" height="14.08"/>
-				<path class="animate st402" d="M163.17,122.02v-21.01h-23.62l-14.47-14.46l-14.46,14.46H86.93v21.01l-14.46,14.47l14.46,14.47v20.45
+				<rect x="346.22" y="101.02" class="st402 " width="14.08" height="183.05"/>
+				<rect x="86.51" y="298.14" class="st400" width="14.08" height="14.08"/>
+				<path class="st402 star" d="M163.17,122.02v-21.01h-23.62l-14.47-14.46l-14.46,14.46H86.93v21.01l-14.46,14.47l14.46,14.47v20.45
 					h23.69l14.46,14.47l14.47-14.47h23.62v-20.45l14.47-14.47L163.17,122.02z M150.9,146.24v15.35h-16.08l-9.75,9.75l-9.75-9.75
 					H99.59v-15.35l-9.76-9.75l9.76-9.75V111.4h15.74l9.75-9.75l9.75,9.75h16.08v15.35l9.76,9.75L150.9,146.24z"/>
-				<rect x="271.51" y="179.82" class="animate st401" width="4.3" height="8.18"/>
-				<rect x="233.57" y="179.82" class="animate st401" width="4.3" height="8.18"/>
-				<rect x="252.54" y="179.82" class="animate st401" width="4.3" height="8.18"/>
-				<path class="animate st402" d="M261.73,213.66h-4.38l7.3-7.3l-9.96-9.96l-9.96,9.96l7.3,7.3h-4.38h-14.08v14.08v14.08h-14.08v14.08
+				<rect x="271.51" y="179.82" class="st401" width="4.3" height="8.18"/>
+				<rect x="233.57" y="179.82" class="st401" width="4.3" height="8.18"/>
+				<rect x="252.54" y="179.82" class="st401" width="4.3" height="8.18"/>
+				<path class="st402" d="M261.73,213.66h-4.38l7.3-7.3l-9.96-9.96l-9.96,9.96l7.3,7.3h-4.38h-14.08v14.08v14.08h-14.08v14.08
 					v14.08h-14.08h-14.08V255.9v-14.08h-14.08v14.08v14.08v14.08h14.08h14.08h14.08h14.08v-14.08V255.9h14.08h14.08h14.08v-14.08
 					v-14.08v-14.08H261.73z M261.73,241.82h-14.08v-14.08h14.08V241.82z"/>
 			</g>
 			<g>
-				<g class="animate st403">
+				<g class="st403">
 					<g>
 						<defs>
 							<rect id="SVGID_735_" x="-5361.78" y="-3582.95" width="7153.11" height="7153.1"/>
 						</defs>
 						<clipPath id="SVGID_2_">
-							<use xlink:href="#SVGID_735_"  style="overflow:visible;"/>
+							<use xlink:href="#SVGID_735_"  style="overflow:hidden;"/>
 						</clipPath>
 					</g>
 				</g>
