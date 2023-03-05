@@ -3,9 +3,6 @@
 	src: local("Interphases"),
 		url("/interphases-pro-regular.otf") format("opentype");
 }
-
-* {
-}
 :root {
 	font-family: "Interphases", Avenir, Helvetica, Arial, sans-serif;
 	line-height: 1.5;
@@ -27,6 +24,11 @@
 	--light-orange: rgb(255, 211, 180);
 	--teal: #007ea1;
 	--glaucous: #667dacff;
+}
+
+* {
+	margin: 0;
+	padding: 0;
 }
 
 .pattern {
@@ -86,10 +88,11 @@ a:hover {
 	color: var(--teal);
 }
 
-body {
+.App {
 	margin: 0;
 	display: flex;
-	place-items: flex-end;
+	align-items: flex-end;
+	justify-content: center;
 	min-width: 320px;
 	height: 100vh;
 	overflow-y: hidden;

@@ -3,10 +3,14 @@
 	padding: 2rem;
 	text-align: center;
 }
-
 #root,
 html,
 body,
 .App {
 	overflow: hidden;
+}
+
+#root {
+	background: url("/pattern.svg") repeat-x center bottom;
+	background-size: 15%;
 }
