@@ -38,9 +38,11 @@ nav {
 	opacity: 0;
 	position: fixed;
 	top: 0;
-	background: var(--light-orange);
 	width: 100%;
+	background-color: var(--dark-blue);
+	color: white;
 	animation: fill 1s linear 3s forwards;
+	padding: 0.5rem 0;
 }
 
 ul {
@@ -70,8 +72,7 @@ img {
 }
 
 a {
-	font-weight: 500;
-	color: var(--dark-blue);
+	color: white;
 	text-decoration: inherit;
 }
 a:hover {
@@ -83,13 +84,13 @@ a:hover {
 	display: flex;
 	align-items: flex-end;
 	justify-content: center;
-	height: 100vh;
-	overflow-y: hidden;
+	/* overflow-y: hidden; */
 }
 
 h1 {
 	font-size: 3.2rem;
 	line-height: 1.1;
+	color: var(--dark-blue);
 }
 
 .h1-wrapper {

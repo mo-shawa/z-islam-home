@@ -6,12 +6,13 @@
 html,
 body,
 .App {
-	overflow: hidden;
+	/* overflow: hidden; */
+	height: 100vh;
 }
 
 .App {
 	opacity: 0;
-	background: url("/pattern.svg") repeat-x center bottom;
+	background: url("/pattern.svg") repeat-x center center;
 	background-size: 15rem;
 	animation: fill 2s linear forwards;
 }
