@@ -10,6 +10,8 @@ body,
 }
 
 .App {
+	opacity: 0;
 	background: url("/pattern.svg") repeat-x center bottom;
 	background-size: 15rem;
+	animation: fill 2s linear forwards;
 }

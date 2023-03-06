@@ -9,7 +9,6 @@
 	.st402{fill:#193276; opacity: 0 ; animation: fill 1s linear forwards; animation-delay: 500ms}
 	.star{fill:#193276; opacity: 0 ; animation: fill 2s linear forwards; animation-delay: 1500ms}
 	.st403{opacity: 0 ; animation: fill 1s linear forwards; animation-delay: 900ms}
-	.test{outline: 1px dashed red;}
 
 
 @keyframes fill{
