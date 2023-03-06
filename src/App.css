@@ -1,6 +1,5 @@
 #root {
 	margin: 0 auto;
-	padding: 2rem;
 	text-align: center;
 }
 #root,
@@ -10,7 +9,7 @@ body,
 	overflow: hidden;
 }
 
-#root {
+.App {
 	background: url("/pattern.svg") repeat-x center bottom;
 	background-size: 15rem;
 }
